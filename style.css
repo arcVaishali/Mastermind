@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(rgba(255, 192, 203, 0.479), rgba(128, 0, 128, 0.461));
+    background-repeat: no-repeat; 
+    height:100vh;
+    /* width: 100vw; */
+}
+
+header .username{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:purple; 
+    margin: 20px;
+} 
+
+header .time{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+    justify-content: end; 
+} 
+
+.time li{
+    margin:0px 10px; 
+} 
+
+.inHand{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:20px;
+    margin: 10px;
+    border:2px solid rgba(128, 0, 128, 0.137); 
+    background-color: rgba(96, 0, 128, 0.226);
+    border-radius:10px;
+
+}
+
+.chooseFrom{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:20px;
+    margin: 10px;
+    border:2px solid rgba(128, 0, 128, 0.137); 
+    background-color: rgba(96, 0, 128, 0.226);
+    border-radius:10px;
+}
+
+.task{
+    border: 2px solid pink; 
+    background-color: rgba(128, 0, 128, 0.795);
+    padding: 0px;
+    margin: 10px;
+}
+
